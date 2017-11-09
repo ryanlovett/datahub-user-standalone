@@ -1,0 +1,20 @@
+Download Anaconda 3.x from https://www.anaconda.com/download/
+Install Anaconda. Accept any default options. This will take a while.
+
+Windows
+Open "Anaconda Prompt"
+Type: conda env create C:\path\to\environment.yml
+  e.g. conda env create C:\Users\myuser\Downloads\environment.yml
+Type 'activate datahub-2017-fall'.
+
+Mac
+Open a Terminal
+Type: conda env create /path/to/environment.yml
+  e.g. conda env create ~/Downloads/environment.yml
+Type 'source activate datahub-2017-fall'.
+
+Type 'jupyter serverextension enable  --sys-prefix --py nbgitpuller'.
+Type 'jupyter notebook'.
+
+
+# vim: set nonumber:
